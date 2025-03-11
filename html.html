@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carreras UTSH</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f4f4f4;
+            background: linear-gradient(150deg, #e0f7e9, #b3e5fc, #e0f7e9);
+            margin: 0;
+            padding: 20px;
+        }
+        h2 {
+            color: green;
+        }
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            max-width: 1200px;
+            margin: auto;
+            padding: 10px;
+        }
+        .card {
+            background: white;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+        }
+        .card:hover {
+            transform: scale(1.05);
+        }
+        .card img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .card h3 {
+            margin: 10px 0;
+            font-size: 1.2em;
+        }
+        .card p {
+            font-size: 0.9em;
+            color: #555;
+            display: none;
+            transition: all 0.3s ease-in-out;
+        }
+        .card button {
+            margin-top: 10px;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1em;
+        }
+        .card button:hover {
+            background-color: #45a049;
+        }
+        
+        /* Media queries para mejorar la responsividad */
+        @media (max-width: 768px) {
+            .grid-container {
+                grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            }
+            .card {
+                padding: 10px;
+            }
+        }
+        @media (max-width: 480px) {
+            .grid-container {
+                grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            }
+            .card h3 {
+                font-size: 1em;
+            }
+            .card p {
+                font-size: 0.8em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h2>Conoce Nuestras Carreras "UTSH"</h2>
+    <div class="grid-container" id="carreras-container"></div>
+    
+    <script>
+        fetch('carreras.json')
+            .then(response => response.json())
+            .then(data => {
+                const container = document.getElementById('carreras-container');
+                data.forEach(carrera => {
+                    const card = document.createElement('div');
+                    card.classList.add('card');
+                    card.innerHTML = `
+                        <img src="${carrera.img}" alt="${carrera.carrera}">
+                        <h3>${carrera.carrera}</h3>
+                        <button class="toggle-btn">Ver Descripción</button>
+                        <p class="descripcion">${carrera.descripcion}</p>
+                    `;
+                    const button = card.querySelector('.toggle-btn');
+                    const description = card.querySelector('.descripcion');
+                    
+                    button.addEventListener('click', () => {
+                        if (description.style.display === 'none' || description.style.display === '') {
+                            description.style.display = 'block';
+                            button.textContent = 'Ocultar Descripción';
+                        } else {
+                            description.style.display = 'none';
+                            button.textContent = 'Ver Descripción';
+                        }
+                    });
+                    
+                    container.appendChild(card);
+                });
+            })
+            .catch(error => console.error('Error cargando el JSON:', error));
+    </script>
+</body>
+</html>

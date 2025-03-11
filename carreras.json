@@ -1,0 +1,78 @@
+[
+  {
+      "carrera":"Licenciatura de Negocios y Mercadotecnia",
+      "img":"merca.png",
+      "descripcion":"Formar profesionistas de nivel con sólida preparación académica, tecnológica y cultural, que les permita desempeñarse profesionalmente en las actividades de comercialización, para contribuir a la satisfacción de las necesidades de un mercado globalizado, con programas académicos pertinentes y de calidad."
+  },
+  {
+    "carrera":"Licenciatur en contaduria",
+      "img":"conta.png",
+      "descripcion":"Formar Licenciados en Contaduría para el desarrollo de las actividades contables en el área financiera, fiscal,gubernamental, costos y auditoría, con capacidad para la toma de decisiones en las organizaciones."  
+  },
+    {
+      "carrera":"Licenciatura en enfermeria",
+        "img":"enfermeria.png",
+        "descripcion":"Organizar la atención primaria a la salud, con base en un diagnóstico de estado de salud de la comunidad, mediante herramientas epidemioló-gicas y admirativas, para reorientar las acciones de salud en el medio familiar y comunitario y contribuir a optimizar los recursos disponibles"  
+    },
+    {
+      "carrera":"Licenciatura en terapia fisica",
+        "img":"fisica.png",
+        "descripcion":"Su formación académica a través del modelo por competencias, le permite valorar, integrar e implementar tratamientos de terapia, en cualquier etapa de la vida. Encaminados a prevenir lesiones o disminuir el grado de discapacidad temporal o permanente a través de técnicas y métodos terapéuticos que mejoran la calidad de vida del individuo y la familia en beneficio de la sociedad."  
+    },
+    {
+      "carrera":"Ing. en diseño textil y modas",
+        "img":"moda.png",
+        "descripcion":"El ingeniero en diseño textil y moda tiene conocimientos para organizar el patronaje y corte, diseñar y validarmateriales para la manufactura de productos textiles conforme a las tendencias y especificaciones del clientepara satisfacer las necesidades del mercado, dirigir la manufactura de productos textiles, de la confección yproyectos con base en estándares nacionales e internacionales para competir en el mercado."  
+    },
+    {
+      "carrera":"Ing. metal mecanica",
+        "img":"meca.png",
+        "descripcion":"El ingeniero en metal mecánica tiene la capacidad para innovar proyectos metal mecánicos aplicando la reingeniería para mantener y mejorar la competitividad de la organización; además de validar los procesos utilizados en la manufactura de piezas mecánicas conforme a los requerimientos, normas y estándares aplicables para garantizar la calidad de los mismos."  
+    },
+    {
+      "carrera":"Ing. Industrial",
+        "img":"industrial.png",
+        "descripcion":"El ingeniero en sistemas productivos es capaz de desarrollar e innovar sistemas de manufactura a través de ladirección de proyectos, administrar los recursos y el sistema de gestión de la calidad de la organización con unenfoque sistémico, de acuerdo a los requerimientos del cliente, considerando factores técnicos y económicos,contribuyendo al desarrollo sustentable"  
+    },
+    {
+      "carrera":"TSU en procesos industrales",
+        "img":"2.png",
+        "descripcion":"El ingeniero en sistemas productivos es capaz de desarrollar e innovar sistemas de manufactura a través de ladirección de proyectos, administrar los recursos y el sistema de gestión de la calidad de la organización con unenfoque sistémico, de acuerdo a los requerimientos del cliente, considerando factores técnicos y económicos,contribuyendo al desarrollo sustentable"  
+    },
+    {
+      "carrera":"Licenciatura en Administracion",
+        "img":"admin.png",
+        "descripcion":"Diseñar e implementar programas enfocados en el desarrollo de los recursos humanos, que mejoren la calidad y eleven la productividad, promoviendo el trabajo en equipo y la capacitación, a fin de transformar estrategias para laempresa u organización, impactando en la mejora del rendimiento y solución de problemas."  
+    },
+    {
+      "carrera":"Ing. en manejo sustentable y recuersos naturales",
+        "img":"natural.png",
+        "descripcion":"Formar profesionales con destrezas y actitudes que permitan Diseñar y evaluar programas de Manejo Sustentable mediante propuestas de intervención y el diagnóstico del área de interés, con base a la normatividad aplicable para contribuir a la restauración, conservación protección y fomento de los recursos naturales, así como al desarrollo regional."  
+    },
+    {
+      "carrera":"Ing. mantenimiento industrial",
+        "img":"2.png",
+        "descripcion":"Formar profesionales competentes en el diseño y desarrollo de programas de mantenimiento a través deestrategias innovadoras, cumpliendo con los estándares de factibilidad y competitividad, aplicado a las empresas en general para sus equipos, instalaciones y servicios."  
+    },
+    {
+      "carrera":"Ing. civil",
+        "img":"civil.png",
+        "descripcion":"Si sueñas con dejar huella en el mundo a través de estructuras que perduran, esta carrera te permite diseñar y construir infraestructuras que transforman comunidades y conectan generaciones. Cada proyecto es una oportunidad para construir el futuro."  
+    },
+    {
+      "carrera":"Ing. mecatronica",
+        "img":"mecatronica.png",
+        "descripcion":"formar profesionales de alto nivel, capaces de trabajar con la integración de las disciplinas componentes (ingeniería mecánica, ingeniería electrónica, y las tecnologías de la información), para identificar y usar la combinación adecuada que provea solución al desarrollo de productos, procesos y sistemas autónomos, programables e inteligentes."  
+    },
+    {
+      "carrera":"ing. redes intelientes y ciberseguridad",
+        "img":"redes.png",
+        "descripcion":"En un mundo cada vez más digital, esta carrera te coloca al frente de la protección de datos y sistemas. Serás el guardián de la información, asegurando la seguridad y el rendimiento de redes que conectan a millones de personas."  
+    },
+    {
+      "carrera":"ing. desarrollo y gestion de software ",
+        "img":"software.png",
+        "descripcion":"Si te apasiona crear el futuro, esta carrera te permite diseñar y gestionar soluciones tecnológicas que cambian la vida de las personas. Serás el arquitecto del software que impulsa empresas y conecta al mundo."  
+    }
+    
+]
